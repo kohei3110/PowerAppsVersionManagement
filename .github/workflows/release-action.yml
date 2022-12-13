@@ -8,7 +8,6 @@ on:
 
 jobs:
   release-to-staging:
-    needs: [ convert-to-managed ]
     runs-on: windows-latest
     env:
       RUNNER_DEBUG: 1
