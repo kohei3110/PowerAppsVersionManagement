@@ -40,7 +40,7 @@ on:
       solution_release_folder:
        description: 'folder where the released binaries are going to be hosted *do not change*'
        type: string
-       default: out/release
+       default: out/solutions
     secrets:
       envSecret:
         description: 'The secret value for authentication using SPN'
