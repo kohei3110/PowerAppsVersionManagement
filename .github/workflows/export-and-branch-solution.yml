@@ -4,7 +4,7 @@ name: export-and-branch-solution
 
 on:
   release:
-      types: [created]
+      types: [published]
   workflow_dispatch:
     inputs:
       # Change this value
